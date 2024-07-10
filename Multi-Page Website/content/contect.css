@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f4f5;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.contner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between ;
+        width: 100vw;
+        height: 90vh;
+        background-color: #f0f4f5;
+    }
+
+    .header{
+        display: flex;
+         align-items: center;
+         justify-content: space-around;
+         width: 100%;
+         
+    }
+    
+    .header img{
+        width: 150px;
+    
+    }
+    
+    .header ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        width: 30%;
+        font-size: larger;
+        font-weight: 600;
+        
+    }
+    
+    .header ul a{
+        text-decoration: none;
+        color: black;
+    
+        
+    }
+
+    .box{
+        background-color:#f0f4f5;
+        width: 350px;
+        height: 460px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        box-shadow: 0 0 15px rgb(36, 35, 35);
+        margin-right: 200px;
+        
+
+
+    }
+
+    .box h1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .box-name{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 10px;
+
+    }
+
+    .box-name p{
+        font-weight: 900;
+        font-size: large;
+    }
+
+    .box-name input{
+        border: none;
+        padding-left: 13px;
+        font-weight: 600;
+    }
+
+    .box button{
+        width: 85%;
+        padding: 13px 0px;
+       align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        font-size: large;
+        font-weight: 700;
+        color: #f0f4f5;
+        background-color: rgb(27, 168, 91);
+        border: none;
+        border-radius: 20px;
+
+    }
