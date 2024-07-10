@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: #f6f8fa;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+
+}
+
+button {
+    background: #6663e9;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 16px;
+    
+    
+  }
+
+
+  
+
+  .contener{
+    
+    
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 0px 80px;
+
+
+  }
+
+ /* image backbground all section */
+
+  .box{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../photoes/mainBackground.png)  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 95vh;
+     width: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+}
+
+
+.box-head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 20px 0px;
+
+}
+
+.box-head img{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box-head ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    
+    
+    font-size: large;
+    font-weight: 600;
+}
+
+.box-head ul li{
+    margin-left: 70px;
+}
+
+hr{
+    width: 80%;
+    
+    
+  
+  
+}
+
+.box nav{
+     width: 100%;
+     padding-left: 110px;
+     padding-top: 70px;
+     display: flex;
+     flex-direction: column;
+    
+     align-items: first baseline ;
+     justify-content: center;
+     gap: 30px;
+     
+}
+
+.box nav h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.box nav h3{
+    font-size: 20px;
+}
+
+.logoname{
+    background-color: #fff;
+    margin: 0 30px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    position: relative;
+    bottom: 50px;
+    width: 700px;
+    
+
+
+}
+
+.logoname img{
+    width: 115px;
+    padding: 12px;
+
+    
+}
+.text-our{
+
+    width: 100%;
+    height: 120px;
+    position: relative;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+    color:  black;
+    
+}
+
+
+/* 3 section all photoes */
+
+.photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding-top: 50px;
+    width: 1000px;
+
+}
+
+.photos-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap:10px;
+    
+}
+
+.image-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+
+} 
+.image-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 35px;
+}
+
+.image-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 70px;
+}
+
+.image-box{
+    display: flex;
+    background-color: #fff;
+    color: black;
+    padding: 20px 5px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 20px;
+    width: 260px;
+    bottom: 50px;
+    
+
+}
+
+.image-box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+
+.image-box-text h1 { 
+    font-size: larger;
+    font-weight: 900;
+
+}
+
+.image-box-text p{
+    color: #6a67fa;
+    font-weight: bolder;
+}
+
+
+
+
+
+.png {
+    width: 300px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+/* modern trendy, Unique house immage  */
+
+.combo-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+
+}
+.mu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    width: 1000px;
+    
+    
+    
+}
+
+.mu-2  {
+    
+    color: black;
+
+}
+
+
+ .mu-2 h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+ .mu-2 p{
+    margin: 10px 0px;
+
+}
+
+
+.m-photo1{
+    height: 300px;
+    
+}
+.m-photo2 {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin-left: -430px;
+    margin-top: -90px;
+    
+}
+
+
+
+.u-photo2{
+    height: 300px;
+    width: 490px;
+    
+
+}
+
+.u-photo1{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin-left: -490px ;
+    margin-top: -90px;
+    
+}
+
+/* blue box */
+
+.blue-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #6663e9;
+
+    border-radius: 30px;
+    padding: 50px 60px;
+    gap: 25px;
+}
+
+.blue-box h1{
+    font-size: 60px;
+    font-weight:1000;
+}
+
+.blue-box p {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.blue-box-mail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-dark{
+    display: flex;
+    background-color: #242377;
+    height: 45px;
+    width: 350px;
+    padding-left: 20px;
+    
+    
+    border-radius: 25px;
+   align-items: center;
+  justify-content: baseline;
+    
+}
+
+.blue-dark input {
+    background-attachment: fixed;
+    background-color: #242377;
+    border: none;
+
+
+}
+
+.blue-box-mail button {
+    background-color: white;
+    color: #6663e9;
+}
+
+/* footer text all  */
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 1000px;
+    height: 300px;
+
+}
+
+.footer-1 img {
+    width: 120px;
+
+}
+.footer-1 ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: baseline;
+    padding: 30px 0px;
+    font-size: x-large;
+    
+}
+
+.footer-1 ul i{
+    background-color: #6663e9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-1 p{
+    font-size: large;
+    font-weight: 600;
+    color: black;
+}
+
+
+.footer-2 ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  height: 190px;
+  font-size: larger;
+  font-weight: 500;
+  
+}
+
+.footer-2 ul li a{
+    color: black;
+
+
+}
+
+.footer-2 ul li:first-child{
+    font-size: 25px;
+    font-weight: 600;
+}
